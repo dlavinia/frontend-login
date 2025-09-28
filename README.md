@@ -19,7 +19,7 @@
   <li><a href="https://reactjs.org/">React.js</a></li>
   <li><a href="https://tailwindcss.com/">TailwindCSS</a></li>
   <li><a href="https://jestjs.io/">Jest</a></li>
-  <li><a href="https://playwright.dev/">Playwright</a> (for E2E tests)</li>
+  <li><a href="https://playwright.dev/">Playwright</a> </li>
   <li><a href="https://ui.shadcn.com/">Shadcn</a></li>
   <li><a href="https://formik.org/">Formik</a></li>
   <li><a href="https://axios-http.com/">Axios</a></li>
@@ -31,8 +31,8 @@
 - [x] Typescript
 - [x] ReactJS
 - [x] Shadcn
-- [x] Uso de interceptors
-- [x] Testes
+- [x] Interceptors
+- [x] Tests
   - [x] unit
   - [x] components
   - [x] E2E
@@ -74,13 +74,13 @@ Start the server
 To run unit and component tests, use the following command:
 
 ```bash
-  yarn test test
+  npm run test:unit
 ```
 
  And to run E2E tests, use the following command:
 
 ```bash
-  yarn test test
+  npm run test:e2e
 ```
 
 <!-- Roadmap -->
