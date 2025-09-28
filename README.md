@@ -77,7 +77,10 @@ To run unit and component tests, use the following command:
   npm run test:unit
 ```
 
- And to run E2E tests, use the following command:
+ And to run E2E tests, use the following command (with the server running):
+```bash
+  npx playwright install-deps
+```
 
 ```bash
   npm run test:e2e
